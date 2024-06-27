@@ -408,7 +408,34 @@ function getIntoFriend(){
         idH2.innerHTML += "<button onClick='back()'>butsah</button>"
     }
 
+    //Ynjka
+    else if(idFriendCode.value == "nz09ya22gl"){
+        // document.body.style.textAlign = "left"
+        idH2.innerHTML = "<wonky>" + n1 + "</wonky> <br>Ynjka<br><br>"
+        idH2.innerHTML +="<wonky>" + n2 + "</wonky> <br>Naiz<br><br>"
+        idH2.innerHTML +="<wonky>" + n3 + "</wonky> <br>Huurhun ohin shuu<br><br>"
+        idH2.innerHTML +="<wonky>" + n4 + "</wonky> <br>Ymarch huurhun ohin be dee<br><br>"
+        idH2.innerHTML +="<wonky>" + n5 + "</wonky> <br>Gomdooj baisan bol uuclaarai<br><br>"
+        idH2.innerHTML +="<wonky>" + n6 + "</wonky> <br>Hedhen udaa, <br>ghdee odoo gallery dotor baihgu shuu hha<br><br>"
+        idH2.innerHTML +="<wonky>" + n7 + "</wonky> <br>Eyldeg, Huurhun, Uhaalag<br><br>"
+        idH2.innerHTML += "<button class='customButtons' onClick='myFeedBack()'>Nadaa heleh ug baival dar</button><br><br>"
+        idH2.innerHTML += "<button onClick='back()'>butsah</button>"
+    }
 
+    //Mongoljingoo
+    else if(idFriendCode.value == "nz11mo24gl"){
+        // document.body.style.textAlign = "left"
+        idH2.innerHTML = "<wonky>" + n1 + "</wonky> <br>Mongoljingoo<br><br>"
+        idH2.innerHTML +="<wonky>" + n2 + "</wonky> <br>Naiz (ceo baisan hhah)<br><br>"
+        idH2.innerHTML +="<wonky>" + n3 + "</wonky> <br>Goy hoolootoi shuu,<br>bas mundag ceo shuu hicheegeerei<br><br>"
+        idH2.innerHTML +="<wonky>" + n4 + "</wonky> <br>Hugjiltei ceo ym shig baina yeay<br><br>"
+        idH2.innerHTML +="<wonky>" + n5 + "</wonky> <br>Duugaa songohgu udsand sorry hhe<br><br>"
+        idH2.innerHTML +="<wonky>" + n6 + "</wonky> <br>NO<br><br>"
+        idH2.innerHTML +="<wonky>" + n7 + "</wonky> <br>Huurhun, Uhaalag, Hicheengui<br><br>"
+        idH2.innerHTML += "<button class='customButtons' onClick='myFeedBack()'>Nadaa heleh ug baival dar</button><br><br>"
+        idH2.innerHTML += "<button onClick='back()'>butsah</button>"
+    }
+    
     //NO ONE
     else if(idFriendCode.value == "no08ne24gy"){
         // document.body.style.textAlign = "left"
